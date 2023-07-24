@@ -39,8 +39,6 @@ const Todo = () => {
   }
 
   const ListTodo = (props) => {
-    let x = props.elem;
-    console.log(x);
     function addToList(){
       setIdCount((prevstate) => {return (prevstate+1)});
       setTodoList(()=>{
